@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_news_news",
+  "info": {
+    "name": "News",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "Head": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

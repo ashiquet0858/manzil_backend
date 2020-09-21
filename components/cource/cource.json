@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cource_cources",
+  "info": {
+    "name": "Cource",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "Cource_Name": {
+      "type": "string"
+    }
+  }
+}

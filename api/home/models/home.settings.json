@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Hero_Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "About_Us": {
+      "type": "richtext"
+    },
+    "News": {
+      "type": "component",
+      "repeatable": true,
+      "component": "news.news"
+    },
+    "Cources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cource.cource"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Phone_Number": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}
