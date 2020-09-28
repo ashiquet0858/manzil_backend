@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cources",
+  "info": {
+    "name": "Cources"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Cource_Name": {
+      "type": "string"
+    },
+    "Duration": {
+      "type": "string"
+    },
+    "Intake": {
+      "type": "string"
+    },
+    "Syllabus_Pdf": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_boardofdirectors_board_of_directors",
+  "info": {
+    "name": "BOARD OF DIRECTORS",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "POSITION": {
+      "type": "string"
+    },
+    "PROFILE": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "NAME": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "About Us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Hero": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "About_Us": {
+      "type": "text"
+    },
+    "About_Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "JUSTIFICATION": {
+      "type": "richtext"
+    },
+    "OBJECTIVES": {
+      "type": "component",
+      "repeatable": true,
+      "component": "objectives.objectives"
+    },
+    "Vision_Mission_Background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "VISSION": {
+      "type": "text"
+    },
+    "MISSION": {
+      "type": "text"
+    },
+    "SECRETARY_PROFILE": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "SECRETARY_MESSAGE": {
+      "type": "text"
+    },
+    "SECRETARY_NAME": {
+      "type": "string"
+    },
+    "PRINCIPAL_NAME": {
+      "type": "string"
+    },
+    "PRINCIPAL_MESSAGE": {
+      "type": "text"
+    },
+    "PRINCIPAL_PROFILE": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "BOARD_OF_DIRECTORS": {
+      "type": "component",
+      "repeatable": true,
+      "component": "boardofdirectors.board-of-directors"
+    },
+    "GOVERNING_BODY": {
+      "type": "component",
+      "repeatable": true,
+      "component": "governingbody.governing-body"
+    },
+    "COLLEGE_DEVELOPMENT_COMMITTEE": {
+      "type": "component",
+      "repeatable": true,
+      "component": "collegedevelopmentcommittee.college-development-committee"
+    }
+  }
+}

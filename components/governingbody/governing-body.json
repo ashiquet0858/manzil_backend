@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_governingbody_governing_bodies",
+  "info": {
+    "name": "GOVERNING BODY",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "POSITION": {
+      "type": "string"
+    },
+    "PROFILE": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "NAME": {
+      "type": "string"
+    }
+  }
+}

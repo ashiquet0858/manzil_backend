@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_collegedevelopmentcommittee_college_development_committees",
+  "info": {
+    "name": "COLLEGE DEVELOPMENT COMMITTEE",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "NAME": {
+      "type": "string"
+    }
+  }
+}

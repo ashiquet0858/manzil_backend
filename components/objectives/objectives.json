@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_objectives_objectives",
+  "info": {
+    "name": "OBJECTIVES",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "List_Objectives": {
+      "type": "text"
+    }
+  }
+}
