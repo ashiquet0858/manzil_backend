@@ -6,9 +6,6 @@ module.exports = ({ env }) => ({
       secret: env("ADMIN_JWT_SECRET"),
     },
   },
-});
-
-module.exports = ({ env }) => ({
   upload: {
     provider: 'aws-s3',
     providerOptions: {
@@ -21,3 +18,4 @@ module.exports = ({ env }) => ({
     }, 
   },
 });
+
