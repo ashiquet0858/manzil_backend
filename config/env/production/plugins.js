@@ -8,6 +8,6 @@ module.exports = ({ env }) => ({
         params: {
           Bucket: 'my-bucket',
         },
-      },
+      }, 
     },
   });
