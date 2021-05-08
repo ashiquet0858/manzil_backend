@@ -8,7 +8,7 @@
     "increments": true,
     "timestamps": true, 
     "draftAndPublish": true
-  },
+  }, 
   "attributes": {
     "image": {
       "model": "file",
